@@ -1,0 +1,128 @@
+
+.blanco-color{color: #fff;}
+.gris-color{color: #D1D3D4;}
+.gris-fondo{background-color: #D1D3D4;}
+.crema-fondo{background-color: #f9ecc0;}
+.negro-fondo{background-color: #191916;}
+.rosagris-fondo{background-color: #704958;}
+
+
+body{
+  font-family: 'Space Mono', monospace;
+  color:#372929;
+}
+
+.texto-normal {
+  font-size: 1rem;
+}
+.texto-chico {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+.texto-intro {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.colgado {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.titulo-normal{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.titulo-mediano{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+
+
+.video-75 {
+  display:block;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ===========================================================================================================================*/
+/* ===========================================================================================================================*/
+
+/* youtube */
+
+/* ===========================================================================================================================*/
+/* ===========================================================================================================================*/
+
+.youtube {
+    background-color: #000;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.youtube img {
+    width: 100%;
+    top: -16.84%;
+    left: 0;
+    opacity: 0.7;
+}
+.youtube .play-button {
+    width: 90px;
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+.youtube .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+.youtube img,
+.youtube .play-button {
+    cursor: pointer;
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+    position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d( -50%, -50%, 0 );
+}
+.youtube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+/* ===========================================================================================================================*/
+/* ===========================================================================================================================*/
+
+/* responsive */
+
+/* ===========================================================================================================================*/
+/* ===========================================================================================================================*/
+
+
+@media (max-width: 767.98px) {
+
+  .video-75 {
+    width:100%;
+  }
+
+}

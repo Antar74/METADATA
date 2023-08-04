@@ -165,6 +165,18 @@ body{
   height: 100vh;
 }
 
+#metadata-franja {
+  animation: scroll 100s linear infinite;
+  background: url('img/metadata-franja.jpg'), #000000;
+  background-size: auto, auto;
+  background-size: 150%;
+  height: 80px;
+}
+
+  @keyframes scroll {
+     100%{
+      background-position:10000px 0px;
+    }
 /* ===========================================================================================================================*/
 /* ===========================================================================================================================*/
 

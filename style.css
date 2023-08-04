@@ -24,6 +24,7 @@
 .seis-fondo{background-color: rgba(var(--seis), var(--alpha0));}
 
 .cont-col-1{background-color: rgba(var(--uno), var(--alpha2));}
+.cont-col-2{background-color: rgba(var(--uno), var(--alpha1));}
 
 body{
   font-family: 'Space Mono', monospace;
@@ -66,26 +67,40 @@ body{
 }
 
 
-.cine::before {
+.cine-icon::before {
   left: -5px;
   margin-left: 5px;
   position: relative;
   top: 4px;
   content: url("img/clapper.svg");
 }
-.editorial::before {
+.editorial-icon::before {
   left: -5px;
   margin-left: 5px;
   position: relative;
   top: 4px;
-  content: url("img/data.svg");
+  content: url("img/hard.svg");
 }
-.publicidad::before {
+.publicidad-icon::before {
   left: -5px;
   margin-left: 5px;
   position: relative;
   top: 4px;
   content: url("img/movie.svg");
+}
+.equipo-icon::before {
+  left: -5px;
+  margin-left: 5px;
+  position: relative;
+  top: 4px;
+  content: url("img/laptop.svg");
+}
+.contacto-icon::before {
+  left: -5px;
+  margin-left: 5px;
+  position: relative;
+  top: 4px;
+  content: url("img/data.svg");
 }
 
 .fondo1, .fondo2, .fondo3, .fondo4, .fondo5, .fondo6 {
@@ -112,6 +127,38 @@ body{
 
 #cine {
   background-image: url('img/IMG_2956.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#publicidad {
+  background-image: url('img/IMG_8064.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#editorial {
+  background-image: url('img/ORME2075.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#equipo {
+  background-image: url('img/IMG_5101.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#contacto {
+  background-image: url('img/IMG_1373.JPG');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

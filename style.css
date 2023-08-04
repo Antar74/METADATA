@@ -169,7 +169,7 @@ body{
   animation: scroll 100s linear infinite;
   background: url('img/metadata-franja.jpg'), #000000;
   background-size: auto, auto;
-  background-size: 150%;
+  background-size: 1700px;
   height: 80px;
 }
 

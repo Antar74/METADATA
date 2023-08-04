@@ -1,11 +1,12 @@
 
 .blanco-color{color: #fff;}
-.gris-claro-fondo{background-color: #838383;}
-.gris-oscuro-fondo{background-color: #333333;}
-.rosado-fondo{background-color: #9F4040;}
-.mostaza-fondo{background-color: #B8681E;}
-.negro-fondo{background-color: #000000;}
-.sangre-fondo{background-color: #5F0000;}
+.cero-fondo{background-color: #ffffff;}
+.uno-fondo{background-color: #000000;}
+.dos-fondo{background-color: #838383;}
+.tres-fondo{background-color: #333333;}
+.cuatro-fondo{background-color: #B8681E;}
+.cinco-fondo{background-color: #9F4040;}
+.seis-fondo{background-color: #5F0000;}
 
 
 body{
@@ -49,6 +50,13 @@ body{
   margin-right: auto;
 }
 
+#cine {
+  background-image: url('img/IMG_2956.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
 
 /* ===========================================================================================================================*/
 /* ===========================================================================================================================*/

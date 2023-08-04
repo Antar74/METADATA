@@ -65,6 +65,29 @@ body{
   margin-right: auto;
 }
 
+
+.cine::before {
+  left: -5px;
+  margin-left: 5px;
+  position: relative;
+  top: 4px;
+  content: url("img/clapper.svg");
+}
+.editorial::before {
+  left: -5px;
+  margin-left: 5px;
+  position: relative;
+  top: 4px;
+  content: url("img/data.svg");
+}
+.publicidad::before {
+  left: -5px;
+  margin-left: 5px;
+  position: relative;
+  top: 4px;
+  content: url("img/movie.svg");
+}
+
 .fondo1, .fondo2, .fondo3, .fondo4, .fondo5, .fondo6 {
   min-height: 100vh;
 }

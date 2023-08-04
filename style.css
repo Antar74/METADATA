@@ -1,15 +1,16 @@
 
 .blanco-color{color: #fff;}
-.gris-color{color: #D1D3D4;}
-.gris-fondo{background-color: #D1D3D4;}
-.crema-fondo{background-color: #f9ecc0;}
-.negro-fondo{background-color: #191916;}
-.rosagris-fondo{background-color: #704958;}
+.gris-claro-fondo{background-color: #838383;}
+.gris-oscuro-fondo{background-color: #333333;}
+.rosado-fondo{background-color: #9F4040;}
+.mostaza-fondo{background-color: #B8681E;}
+.negro-fondo{background-color: #000000;}
+.sangre-fondo{background-color: #5F0000;}
 
 
 body{
   font-family: 'Space Mono', monospace;
-  color:#372929;
+  background-color: #000000;
 }
 
 .texto-normal {
